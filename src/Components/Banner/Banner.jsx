@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="bg-base-200">
   <div className="flex flex-col md:flex-row justify-center items-center">
     
-    <div className='md:w-1/2 py-24 pb-8 md:py-24 pl-16 md:pl-32 md:pr-8'>
+    <div className='md:w-1/2 py-24 pb-8 md:py-24 pl-16 md:pl-36 md:pr-8'>
       <h1 className="text-4xl md:text-6xl font-semibold md:font-bold ">Create and sell custom products</h1>
       <p className="my-8">
         <p>100% Free to use</p>
