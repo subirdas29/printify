@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btncolor{
+  @apply bg-blue-500
+}
+
+.textcolor{
+  @apply text-blue-500
+}
