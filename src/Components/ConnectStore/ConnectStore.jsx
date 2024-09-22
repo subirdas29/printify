@@ -30,11 +30,27 @@ const ConnectStore = () => {
      </div>
      <div>
      <Swiper
-      slidesPerView={4}
-        spaceBetween={80}
-        centeredSlides={true}
+      breakpoints={{
+                            
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+        },
+      
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+      },
+        
+        0: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        }
+    }}
+   
+        // centeredSlides={true}
         autoplay={{
-          delay: 800,
+          delay: 900,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -45,7 +61,7 @@ const ConnectStore = () => {
         className="mySwiper my-20"
       >
         <SwiperSlide>
-          <div className='p-4 w-28 h-28 flex items-center justify-center bg-[#FFFFFF] rounded-xl drop-shadow-lg mb-8'>
+          <div className='p-4 w-28 h-28 flex items-center justify-center bg-[#FFFFFF] rounded-xl drop-shadow-lg mb-8 ml-6'>
           <img src={pic1} className=' w-16' alt="" />
           </div>
         </SwiperSlide>
