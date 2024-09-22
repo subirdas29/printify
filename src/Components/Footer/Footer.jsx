@@ -6,8 +6,8 @@ import logo from '../../assets/img/footer/logo.svg'
 const Footer = () => {
   return (
     <div className='mx-8 lg:mx-32 mt-24'>
-      <div className='flex items-center justify-between mb-16'>
-        <img src={logo} className='w-[135px] h-[50px]' alt="" />
+      <div className='md:flex md:items-center md:justify-between mb-16'>
+        <img src={logo} className='w-[135px] h-[50px] mb-6' alt="" />
         <div className='flex gap-2'>
         <div className='btncolor rounded-full w-8 h-8 flex justify-center items-center'>
         <FaFacebookF className='text-white' />

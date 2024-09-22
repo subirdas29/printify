@@ -14,9 +14,9 @@ const Banner = () => {
         <p className='my-2'>900+ High-Quality Products</p>
         <p>Largest global print network</p>
       </p>
-     <div className='md:mb-6'>
-     <button className="px-6 py-3 rounded-sm mr-4 btncolor text-white font-bold mb-4">Start for free</button>
-     <button className="px-6 py-3 rounded-sm border-2 border-[#C2C2C2] ">How it works?</button>
+     <div className='mb-4 md:mb-6'>
+     <button className="px-5 py-2 md:px-6 md:py-3 rounded-sm mr-4 btncolor text-white font-bold mb-2">Start for free</button>
+     <button className="px-5 py-2 md:px-6 md:py-3  rounded-sm border-2 border-[#C2C2C2] ">How it works?</button>
      </div>
 
       <p className='textcolor font-semibold'>Trusted by over 8M sellers around the world</p>
