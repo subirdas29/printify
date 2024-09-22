@@ -1,5 +1,7 @@
 import React from 'react'
 import gif from '../../assets/img/banner/tshirt.gif'
+import tick from '../../assets/img/banner/tick.svg'
+import play from '../../assets/img/banner/play.svg'
 
 const Banner = () => {
   return (
@@ -10,13 +12,16 @@ const Banner = () => {
     <div className='lg:w-1/2 py-24 pb-8 md:py-24 px-16 md:pl-16 lg:pl-32 lg:pr-8'>
       <h1 className="text-4xl md:text-6xl font-semibold md:font-bold ">Create and sell custom products</h1>
       <p className="my-8">
-        <p>100% Free to use</p>
-        <p className='my-2'>900+ High-Quality Products</p>
-        <p>Largest global print network</p>
+        <div className='flex items-center gap-2'> <img  className='w-[17px] h-[14px]' src={tick} alt="" /><p>100% Free to use</p></div>
+        <div className='flex items-center gap-2 my-2'> <img  className='w-[17px] h-[14px]' src={tick} alt="" /><p>900+ High-Quality Products</p></div>
+        <div className='flex items-center gap-2'> <img  className='w-[17px] h-[14px]' src={tick} alt="" /><p>Largest global print network</p></div>
+       
       </p>
-     <div className='mb-4 md:mb-6'>
-     <button className="px-5 py-2 md:px-6 md:py-3 rounded-sm mr-4 btncolor text-white font-bold mb-2">Start for free</button>
-     <button className="px-5 py-2 md:px-6 md:py-3  rounded-sm border-2 border-[#C2C2C2] ">How it works?</button>
+     <div className='mb-4 md:mb-6 md:flex'>
+     <button className="w-40 h-12 rounded-sm mr-4 btncolor text-white font-bold mb-2">Start for free</button>
+
+     
+     <button className=" h-12 w-40 rounded-sm border-2 border-[#C2C2C2] hover:text-[#29AB51] flex justify-center items-center gap-2"> <img className='w-5 h-5' src={play} alt="" /><p>How it works?</p></button>
      </div>
 
       <p className='textcolor font-semibold'>Trusted by over 8M sellers around the world</p>
