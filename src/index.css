@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .btncolor{
-  @apply bg-blue-500
+  @apply bg-[#39B75D]
 }
 
 .textcolor{
-  @apply text-blue-500
+  @apply text-[#29AB51]
 }

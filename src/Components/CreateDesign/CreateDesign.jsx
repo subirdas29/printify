@@ -18,7 +18,7 @@ const CreateDesign = () => {
       </div>
       {/* another part */}
       </div>
-      <div className='flex flex-col  md:flex-row my-32 mx-16 sm:mx-28 md:mx-36 gap-11 '>
+      <div className='flex flex-col  md:flex-row my-32 mx-16 sm:mx-28 md:mx-40 gap-11 '>
       <div className='text-center md:text-left mt-6 md:mt-0'>
         <div className='flex justify-center md:justify-normal md:flex-none'><img src={pic1} className='w-[120px] h-[120px]' alt="" /></div>
         <h2 className='text-xl font-bold mt-8 textcolor'>CREATE</h2>

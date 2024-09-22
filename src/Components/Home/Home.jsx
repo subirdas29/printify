@@ -4,6 +4,8 @@ import Navbar from "../Navbar/Navbar"
 import Banner from '../Banner/Banner'
 import Benefits from '../Benefits/Benefits'
 import CreateDesign from '../CreateDesign/CreateDesign'
+import ConnectStore from '../ConnectStore/ConnectStore'
+import Reviews from '../Reviews/Reviews'
 
 
 const Home = () => {
@@ -13,6 +15,8 @@ const Home = () => {
       <Banner></Banner>
       <Benefits></Benefits>
       <CreateDesign></CreateDesign>
+      <ConnectStore></ConnectStore>
+      <Reviews></Reviews>
     </div>
   )
 }
