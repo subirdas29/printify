@@ -12,8 +12,8 @@ const ConnectStore = () => {
           backgroundImage: "url(https://i.ibb.co.com/94Y7gmn/bg.png)",
         }}>
 
-            <div className='flex items-center justify-around my-6 md:my-7'>
-                <p className='text-lg md:text-2xl font-bold w-1/2 md:w-1/3 text-[#1F6B45]'>Are you a large business looking for custom solutions?</p>
+            <div className='flex items-center justify-around my-6 md:my-10'>
+                <p className='text-lg md:text-2xl font-bold w-1/2  text-[#1F6B45]'>Are you a large business looking for custom solutions?</p>
                 <button className='h-9 px-6 bg-white font-semibold'>Talk to sales</button>
             </div>
            
