@@ -7,6 +7,7 @@ import CreateDesign from '../CreateDesign/CreateDesign'
 import ConnectStore from '../ConnectStore/ConnectStore'
 import Reviews from '../Reviews/Reviews'
 import StartSelling from '../StartSelling/StartSelling'
+import Footer from '../Footer/Footer'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <ConnectStore></ConnectStore>
       <Reviews></Reviews>
       <StartSelling></StartSelling>
+      <Footer></Footer>
     </div>
   )
 }
