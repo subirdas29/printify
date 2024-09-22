@@ -8,7 +8,7 @@ const ConnectStore = () => {
       <p>Printify easily integrates with major e-commerce platforms and marketplaces</p>
      </div>
      <div>
-        <div className='mx-8 md:mx-28 bg-[#E2F7E3] mt-16 h-[144px] bg-no-repeat bg-right border rounded-badge' style={{
+        <div className='mx-8 md:mx-36 bg-[#E2F7E3] mt-16 h-[144px] bg-no-repeat bg-right border rounded-badge' style={{
           backgroundImage: "url(https://i.ibb.co.com/94Y7gmn/bg.png)",
         }}>
 
