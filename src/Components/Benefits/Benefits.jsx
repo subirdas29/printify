@@ -5,7 +5,7 @@ import pic3 from '../../assets/img/benefits/best-selection.svg'
 
 const Benefits = () => {
   return (
-    <div className='flex flex-col  md:flex-row my-32 mx-16 sm:mx-28 md:mx-36 gap-8'>
+    <div className='flex flex-col  md:flex-row my-32 mx-8 lg:mx-36 gap-8'>
       <div className='text-center md:text-left'>
         <div className='flex justify-center md:justify-normal md:flex-none'><img src={pic1} className='w-[120px] h-[120px]' alt="" /></div>
         <h1 className='text-2xl font-bold my-6'>Higher Profit</h1>

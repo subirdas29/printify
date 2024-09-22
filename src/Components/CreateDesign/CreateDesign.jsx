@@ -14,35 +14,36 @@ const CreateDesign = () => {
 
 
   return (
-    <div className='bg-[#F7F7F7] py-8'>
-      <div className='flex flex-col md:flex-row items-center bg-white m-8 md:m-36 rounded-badge '>
+    <div className='bg-[#F7F7F7] py-16'>
+      <div className='flex flex-col lg:flex-row items-center bg-white mb-10 mx-8  sm:mx-32 rounded-badge '>
       <div>
-        <img src={tshirt} className='btncolor rounded-badge w-[550px] h-[360px] md:h-[648px]' alt="" />
+        <img src={tshirt} className='btncolor rounded-badge w-[550px] h-[360px] lg:h-[648px]' alt="" />
       </div>
-      <div className='mx-8 my-8 md:mx-36 md:w-2/5'>
+      <div className='mx-12 my-12 lg:mx-28 lg:w-2/5'>
         <h1 className='text-4xl font-bold'>Easily add your design to a wide range of products</h1>
         <p className='my-8'>With our free design tools, you can easily add your custom designs to t-shirts, mugs, phone cases, and hundreds of other products.</p>
         <p className='textcolor font-bold'>All products</p>
       </div>
-      {/* another part */}
       </div>
-      <div className=' hidden md:flex flex-col  md:flex-row my-32 mx-16 sm:mx-28 md:mx-36 gap-11 '>
-      <div className='text-center md:text-left mt-6 md:mt-0'>
-        <div className='flex justify-center md:justify-normal md:flex-none'><img src={pic1} className='w-[120px] h-[120px]' alt="" /></div>
+
+      {/* desktop part */}
+      <div className=' hidden lg:flex flex-col  lg:flex-row my-32 mx-16 sm:mx-28 md:mx-36 gap-11 '>
+      <div className='text-center lg:text-left mt-6 md:mt-0'>
+        <div className='flex justify-center lg:justify-normal md:flex-none'><img src={pic1} className='w-[120px] h-[120px]' alt="" /></div>
         <h2 className='text-xl font-bold mt-8 textcolor'>CREATE</h2>
         <h1 className='text-2xl font-bold mt-1 mb-4'>custom products</h1>
         <p className='text-xs'>Easily add your designs to a wide range of products using our free tools</p>
       </div>
-      <div className='text-center md:text-left mt-6 md:mt-0'>
-       <div className='flex justify-center md:justify-normal md:flex-none '>
+      <div className='text-center lg:text-left mt-6 md:mt-0'>
+       <div className='flex justify-center lg:justify-normal md:flex-none '>
        <img src={pic2} className='w-[120px] h-[120px]' alt="" />
        </div>
        <h2 className='text-xl font-bold mt-8 textcolor'>SELL</h2>
         <h1 className='text-2xl font-bold mt-1 mb-4'>on your terms</h1>
         <p className='text-xs'>You choose the products, sale price, and where to sell</p>
       </div>
-      <div className='text-center md:text-left mt-6 md:mt-0'>
-       <div className='flex justify-center md:justify-normal md:flex-none'>
+      <div className='text-center lg:text-left mt-6 md:mt-0'>
+       <div className='flex justify-center lg:justify-normal md:flex-none'>
        <img src={pic3} className='w-[120px] h-[120px]' alt="" />
        </div>
        <h2 className='text-xl font-bold mt-8 textcolor'>WE HANDLE</h2>
@@ -61,7 +62,7 @@ const CreateDesign = () => {
           el: '.custom-pagination-design',
           clickable: true,
         }}
-        className="md:hidden mx-8"
+        className="lg:hidden mx-8"
         modules={[Pagination, Navigation]}
       >
         <SwiperSlide>
@@ -95,7 +96,7 @@ const CreateDesign = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className=" md:hidden mx-8 flex justify-between items-center mt-6">
+      <div className=" lg:hidden mx-12 sm:mx-24 flex justify-between items-center mt-6">
                         {/* Custom previous button */}
                         <div
                        

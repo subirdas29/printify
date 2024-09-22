@@ -6,6 +6,7 @@ import Benefits from '../Benefits/Benefits'
 import CreateDesign from '../CreateDesign/CreateDesign'
 import ConnectStore from '../ConnectStore/ConnectStore'
 import Reviews from '../Reviews/Reviews'
+import StartSelling from '../StartSelling/StartSelling'
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <CreateDesign></CreateDesign>
       <ConnectStore></ConnectStore>
       <Reviews></Reviews>
+      <StartSelling></StartSelling>
     </div>
   )
 }

@@ -56,11 +56,11 @@ const Reviews = () => {
 
     return (
         <div className='bg-[#F7F7F7] '>
-            <div className='mx-8 sm:mx-16 md:mx-36 py-24'>
-                <div className='flex gap-12 justify-start'>
-                    <h1 className='text-4xl font-bold w-2/6'>Trusted by over 8M sellers around the world</h1>
-                    <p className='w-2/6'>Whether you are just getting started or run an enterprise-level e-commerce business, we do everything we can to ensure a positive merchant experience.</p>
-                    <div></div>
+            <div className='mx-8 sm:mx-16 md:mx-32 py-24'>
+                <div className='mb-12 lg:mb-20 text-center lg:text-left lg:flex gap-12 lg:justify-start'>
+                    <h1 className='text-4xl font-bold w-full lg:w-2/6'>Trusted by over 8M sellers around the world</h1>
+                    <p className='w-full lg:w-2/6 mt-6 lg:mt-0'>Whether you are just getting started or run an enterprise-level e-commerce business, we do everything we can to ensure a positive merchant experience.</p>
+                    <div className='hidden lg:block'></div>
                 </div>
                 <div>
 
@@ -81,10 +81,7 @@ const Reviews = () => {
                                 spaceBetween: 30,
                             },
                           
-                            768: {
-                                slidesPerView: 2,
-                                spaceBetween: 20,
-                            },
+                          
                             
                             0: {
                                 slidesPerView: 1,
@@ -93,10 +90,10 @@ const Reviews = () => {
                         }}
                           freeMode={true}
                           modules={[FreeMode, Pagination, Navigation]}
-                          className="mySwiper mt-20"
+                          className="mySwiper mx-12 lg:mx-0 "
                     >
                         <SwiperSlide>
-                            <div className='p-10 rounded-3xl bg-[#FFFFFF]'>
+                            <div className=' p-10 rounded-3xl bg-[#FFFFFF]'>
                                 <div className='flex gap-6 mb-6'>
                                     <img className='h-[64px] w-[64px] rounded-xl' src={person1} alt="" />
                                     <div>
@@ -212,7 +209,7 @@ const Reviews = () => {
                         </SwiperSlide>
 
                     </Swiper>
-                    <div className="flex justify-between items-center mt-6">
+                    <div className="flex justify-between items-center mt-6 mx-12 lg:mx-0">
                         {/* Custom previous button */}
                         <div
                             ref={prevRef}
