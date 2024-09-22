@@ -3,6 +3,7 @@ import tshirt from '../../assets/img/createdesign/cloth.png'
 import pic1 from '../../assets/img/createdesign/custom-products.png'
 import pic2 from '../../assets/img/createdesign/your-products.png'
 import pic3 from '../../assets/img/createdesign/fullfillment.png'
+import arrow from '../../assets/img/createdesign/arrow.svg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {  Pagination, Navigation} from 'swiper/modules';
 import 'swiper/css';
@@ -22,7 +23,10 @@ const CreateDesign = () => {
       <div className='mx-12 my-12 lg:mx-28 lg:w-2/5'>
         <h1 className='text-4xl font-bold'>Easily add your design to a wide range of products</h1>
         <p className='my-8'>With our free design tools, you can easily add your custom designs to t-shirts, mugs, phone cases, and hundreds of other products.</p>
-        <p className='textcolor font-bold'>All products</p>
+       <div className='flex items-center gap-2 '>
+       <p className='textcolor font-bold'>All products </p>
+        <img src={arrow} className='h-4 w-4' alt="" />
+       </div>
       </div>
       </div>
 
