@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="bg-base-200">
   <div className="flex flex-col md:flex-row justify-center items-center">
     
-    <div className='md:w-1/2 py-24 pb-8 md:py-24 pl-16 md:pl-32 md:pr-8'>
+    <div className='lg:w-1/2 py-24 pb-8 md:py-24 px-16 md:pl-16 lg:pl-32 lg:pr-8'>
       <h1 className="text-4xl md:text-6xl font-semibold md:font-bold ">Create and sell custom products</h1>
       <p className="my-8">
         <p>100% Free to use</p>
@@ -21,10 +21,9 @@ const Banner = () => {
 
       <p className='textcolor font-semibold'>Trusted by over 8M sellers around the world</p>
     </div>
-    <div className=' w-3/5 pb-16 mx-auto md:w-1/2 md:py-24 md:pr-24 md:pl-8'>
+    <div className=' w-full lg:w-1/2 pb-16 px-16 mt-8  md:py-24 md:pr-24 md:pl-8'>
     <img
-      src={gif}
-      className=" " />
+      src={gif} />
     </div>
   </div>
 </div>
