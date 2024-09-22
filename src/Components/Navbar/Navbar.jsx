@@ -137,9 +137,13 @@ const Navbar = () => {
      </ul>
   </div>
   <div className="navbar-end">
-    <button className=' px-4 py-1 border-2 border-[#C2C2C2]  mr-4'>Log in</button>
-    <button className=' px-4 py-2 mr-2 font-bold  rounded-md text-white btncolor'>Sign up</button>
-  </div>
+    <div className='flex justify-center border-2 border-[#C2C2C2] rounded-md mr-2 md:mr-4 '>
+    <button className=' font-bold w-20 md:w-24 h-10 '>Log in</button>
+    </div>
+    <div lassName='flex justify-center'>
+    <button className=' w-20 md:w-24 h-10 rounded-md font-bold  text-white btncolor'>Sign up</button>
+    </div>
+    </div>
 </div>
     </div>
   )

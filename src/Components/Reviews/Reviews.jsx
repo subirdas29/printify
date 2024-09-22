@@ -20,38 +20,7 @@ import person5 from '../../assets/img/reviews/person5.jpeg'
 import { FreeMode, Pagination, Navigation } from 'swiper/modules';
 
 const Reviews = () => {
-    const prevRef = useRef(null);
-    const nextRef = useRef(null);
-
-    useEffect(() => {
-        const swiperInstance = document.querySelector('.mySwiper').swiper;
-
-        // Function to check and apply disabled state
-        const updateButtonState = () => {
-            if (swiperInstance.isBeginning) {
-                prevRef.current.classList.add('disabled');
-            } else {
-                prevRef.current.classList.remove('disabled');
-            }
-
-            if (swiperInstance.isEnd) {
-                nextRef.current.classList.add('disabled');
-            } else {
-                nextRef.current.classList.remove('disabled');
-            }
-        };
-
-        // Initially check the state
-        updateButtonState();
-
-        // Listen for slide changes
-        swiperInstance.on('slideChange', updateButtonState);
-
-        // Clean up event listener
-        return () => {
-            swiperInstance.off('slideChange', updateButtonState);
-        };
-    }, []);
+  
 
 
     return (
@@ -90,10 +59,10 @@ const Reviews = () => {
                         }}
                           freeMode={true}
                           modules={[FreeMode, Pagination, Navigation]}
-                          className="mySwiper mx-12 lg:mx-0 "
+                          className="mySwiper "
                     >
                         <SwiperSlide>
-                            <div className=' p-10 rounded-3xl bg-[#FFFFFF]'>
+                            <div className=' p-6 md:p-10 rounded-3xl bg-[#FFFFFF]'>
                                 <div className='flex gap-6 mb-6'>
                                     <img className='h-[64px] w-[64px] rounded-xl' src={person1} alt="" />
                                     <div>
@@ -212,7 +181,7 @@ const Reviews = () => {
                     <div className="flex justify-between items-center mt-6 mx-12 lg:mx-0">
                         {/* Custom previous button */}
                         <div
-                            ref={prevRef}
+                            // ref={prevRef}
                             className="custom-prev text-white bg-[#29AB51] rounded-full p-3 cursor-pointer disabled:opacity-50 disabled:pointer-events-none"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-4 h-4 md:w-6 md:h-6">
@@ -225,7 +194,7 @@ const Reviews = () => {
 
                         {/* Custom next button */}
                         <div
-                            ref={nextRef}
+                            // ref={nextRef}
                             className="custom-next text-white bg-[#29AB51] rounded-full p-3 cursor-pointer disabled:opacity-50 disabled:pointer-events-none"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className=" w-4 h-4 md:w-6 md:h-6">
