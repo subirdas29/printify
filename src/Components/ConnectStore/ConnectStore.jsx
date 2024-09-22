@@ -2,13 +2,13 @@ import React from 'react'
 
 const ConnectStore = () => {
   return (
-    <div className='my-16'>
+    <div className='my-16 mx-8 md:mx-36'>
      <div className='text-center'>
      <h1 className='text-4xl mb-4 font-bold '>Connect your store </h1>
       <p>Printify easily integrates with major e-commerce platforms and marketplaces</p>
      </div>
      <div>
-        <div className='mx-8 md:mx-36 bg-[#E2F7E3] mt-16 h-[144px] bg-no-repeat bg-right border rounded-badge' style={{
+        <div className=' bg-[#E2F7E3] mt-16 h-[144px] bg-no-repeat bg-right border rounded-badge' style={{
           backgroundImage: "url(https://i.ibb.co.com/94Y7gmn/bg.png)",
         }}>
 

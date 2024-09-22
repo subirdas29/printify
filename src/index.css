@@ -12,10 +12,17 @@
 
 /* Custom styles for pagination bullets */
 .custom-pagination .swiper-pagination-bullet {
-  @apply bg-[#29AB51] w-3 h-3 rounded-full opacity-20;
+  @apply bg-[#29AB51] w-2 h-2 md:w-3 md:h-3 rounded-full opacity-20;
 }
 
 .custom-pagination .swiper-pagination-bullet-active {
+  @apply opacity-100;
+}
+
+.custom-pagination-design .swiper-pagination-bullet {
+  @apply bg-[#29AB51] w-2 h-2 rounded-full opacity-20;
+}
+.custom-pagination-design .swiper-pagination-bullet-active {
   @apply opacity-100;
 }
 
